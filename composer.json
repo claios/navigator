@@ -27,13 +27,12 @@
 	"homepage": "https://github.com/awes-io/navigator",
 	"keywords": ["laravel", "navigator", "navigation", "menu", "laravel-menu", "laravel-navigation", "awes-io"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "^8"
     },
     "require-dev": {
-		"phpunit/phpunit": "~7.0",
-        "mockery/mockery": "^1.1",
-        "orchestra/testbench": "~3.0",
-        "sempro/phpunit-pretty-print": "^1.0"
+        "phpunit/phpunit": "^8|^9",
+        "mockery/mockery": "^1.4",
+        "orchestra/testbench": "^6.23"
     },
     "autoload": {
         "psr-4": {
